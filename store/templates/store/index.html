@@ -1,0 +1,11 @@
+<!-- Ceci est le gabarit Enfant -->
+<!-- qui est un extension du gabarit Parent base.html-->
+
+{% extends 'store/base.html' %}
+
+
+{% block content %}
+
+  {% include 'store/list.html' with list_title='Nos derniers disques' %}
+
+{% endblock %}
