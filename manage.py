@@ -23,4 +23,4 @@ if __name__ == "__main__":
             )
         raise
     #execute_from_command_line(sys.argv)
-    call_command(sys.argv)
+    management.call_command(sys.argv)
