@@ -2,7 +2,6 @@
 import os
 import sys
 from django.core import management
-from django.core.management.commands import loaddata
 
 
 if __name__ == "__main__":
