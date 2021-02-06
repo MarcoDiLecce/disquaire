@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 import os
 import sys
-from django.core import management
-
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "disquaire.settings")
@@ -21,5 +19,4 @@ if __name__ == "__main__":
                 "forget to activate a virtual environment?"
             )
         raise
-    #execute_from_command_line(sys.argv)
-    management.call_command(sys.argv)
+    execute_from_command_line(sys.argv)
